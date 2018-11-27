@@ -4,9 +4,20 @@
   "description": "A collection of educational resources about React, GraphQL, and Relay",
   "main": "index.js",
   "scripts": {
+    "start": "npx babel src --out-dir dist && nodemon dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Chisimdi Damian Ezeanieto",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "nodemon": "^1.18.7"
+  }
 }

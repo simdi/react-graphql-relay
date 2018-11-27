@@ -1,0 +1,5 @@
+# Ignore node_modules
+/node_modules
+
+# Ignore the dist folder because when you run the project, it will create that for you.
+/dist
