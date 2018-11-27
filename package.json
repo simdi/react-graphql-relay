@@ -1,0 +1,12 @@
+{
+  "name": "react-graphql-relay",
+  "version": "1.0.0",
+  "description": "A collection of educational resources about React, GraphQL, and Relay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chisimdi Damian Ezeanieto",
+  "license": "ISC"
+}
