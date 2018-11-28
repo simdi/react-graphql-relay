@@ -4,7 +4,7 @@
   "description": "A collection of educational resources about React, GraphQL, and Relay",
   "main": "index.js",
   "scripts": {
-    "start": "npx babel src --out-dir dist && nodemon dist/server.js",
+    "start": "npx babel src --out-dir dist --copy-files && nodemon dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
